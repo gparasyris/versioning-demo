@@ -1,3 +1,10 @@
+### [2.0.1](https://github.com/gparasyris/versioning-demo/compare/v2.0.0...v2.0.1) (2021-10-06)
+
+
+### Fixes
+
+* **portal:** another patch ([8ee0ab1](https://github.com/gparasyris/versioning-demo/commit/8ee0ab18509dec840e564a677938e7d1b7784b91))
+
 ## [2.0.0](https://github.com/gparasyris/versioning-demo/compare/v1.1.1...v2.0.0) (2021-10-06)
 
 

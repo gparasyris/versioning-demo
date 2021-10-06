@@ -11,3 +11,5 @@
 // breaking change - major trigger
 
 // 4th fix - patch trigger
+
+// this will not be included in the changelog

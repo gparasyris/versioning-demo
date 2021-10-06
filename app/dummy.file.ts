@@ -2,10 +2,12 @@
 
 // new feature - minor trigger
 
-// 1st fix - minor trigger
+// 1st fix - patch trigger
 
-// 2nd fix - minor trigger
+// 2nd fix - patch trigger
 
-// 3rd fix - minor trigger
+// 3rd fix - patch trigger
 
-// breaking change
+// breaking change - major trigger
+
+// 4th fix - patch trigger

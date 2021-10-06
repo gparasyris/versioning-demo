@@ -1,3 +1,10 @@
+## [2.0.0](https://github.com/gparasyris/versioning-demo/compare/v1.1.1...v2.0.0) (2021-10-06)
+
+
+### Breaking
+
+* **potal:** angularjs to angular 12 update ([8955653](https://github.com/gparasyris/versioning-demo/commit/89556532bc9ee64892d1efbe2c65a8c5737228b5))
+
 ### [1.1.1](https://github.com/gparasyris/versioning-demo/compare/v1.1.0...v1.1.1) (2021-10-06)
 
 

@@ -33,7 +33,7 @@
 
 6. upgade
 
-7. chekc keywords
+7. check keywords
 
 
 */

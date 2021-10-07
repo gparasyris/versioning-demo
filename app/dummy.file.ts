@@ -45,6 +45,6 @@
 
 2. squash fix 2
 
-3. squsah fix 3
+3. squash fix 3
 
 */

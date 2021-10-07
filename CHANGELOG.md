@@ -1,3 +1,35 @@
+## [4.0.0](https://github.com/gparasyris/versioning-demo/compare/v3.0.0...v4.0.0) (2021-10-07)
+
+
+### Breaking
+
+* **app:** trigger breaking change ([5abcd8a](https://github.com/gparasyris/versioning-demo/commit/5abcd8a82b1db19d4b579139aab85fcadfbcef28))
+
+
+### Builds
+
+* **portal:** trigger build ([eb55d8a](https://github.com/gparasyris/versioning-demo/commit/eb55d8a7a3904168394937e2b1948f6c72daf571))
+
+
+### Fixes
+
+* **app:** trigger fix ([3a83f0f](https://github.com/gparasyris/versioning-demo/commit/3a83f0f91eac392a80009cba73f36a7a0b87dc5a))
+
+
+### New
+
+* **component:** trigger new ([8026f4c](https://github.com/gparasyris/versioning-demo/commit/8026f4c13bdba4d3e8229ed5b4e01dc5d6fccff8))
+
+
+### Updates
+
+* **app:** trigger update ([16cf2cb](https://github.com/gparasyris/versioning-demo/commit/16cf2cb5ba6e575aff6116cd01b5df3f764dfece))
+
+
+### Upgrades
+
+* **version:** trigger upgrade ([a20c2f5](https://github.com/gparasyris/versioning-demo/commit/a20c2f5ab71c47e1c46611cccc19faa31cf42076))
+
 ## [3.0.0](https://github.com/gparasyris/versioning-demo/compare/v2.0.1...v3.0.0) (2021-10-07)
 
 

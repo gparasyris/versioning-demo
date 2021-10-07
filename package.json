@@ -1,4 +1,23 @@
 {
     "name": "versioning-demo",
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "scripts": {
+        "semantic-release": "semantic-release"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yorgos-parasyris/versioning-demo.git",
+        "semantic-release": "./node_modules/.bin/semantic-release pre && ./node_modules/.bin/semantic-release post"
+    },
+    "release": {
+        "generateNotes": "./node_modules/@semantic-release/release-notes-generator",
+        "verifyConditions": [
+            "./node_modules/@semantic-release/condition-codeship"
+        ]
+    },
+    "devDependencies": {
+        "semantic-release": "^18.0.0",
+        "@semantic-release/condition-codeship": "^1.1.0",
+        "@semantic-release/release-notes-generator": "^2.0.0"
+    }
 }

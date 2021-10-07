@@ -10,10 +10,7 @@
         "semantic-release": "./node_modules/.bin/semantic-release pre && ./node_modules/.bin/semantic-release post"
     },
     "release": {
-        "generateNotes": "./node_modules/@semantic-release/release-notes-generator",
-        "verifyConditions": [
-            "./node_modules/@semantic-release/condition-codeship"
-        ]
+        "generateNotes": "./node_modules/@semantic-release/release-notes-generator"
     },
     "devDependencies": {
         "semantic-release": "^18.0.0",

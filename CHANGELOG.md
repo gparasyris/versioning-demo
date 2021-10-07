@@ -1,3 +1,24 @@
+## [3.0.0](https://github.com/gparasyris/versioning-demo/compare/v2.0.1...v3.0.0) (2021-10-07)
+
+
+### Breaking
+
+* **app:** another codeship test ([32e55fb](https://github.com/gparasyris/versioning-demo/commit/32e55fb0ea05804ba663a4131d15e63b9f0561f4))
+* **app:** codeship update dev dep ([29ecfa9](https://github.com/gparasyris/versioning-demo/commit/29ecfa9aa8282a85491164f7d99658065fd503cb))
+* codeship try [#1](https://github.com/gparasyris/versioning-demo/issues/1) ([05f5c7a](https://github.com/gparasyris/versioning-demo/commit/05f5c7a043061c5eaf8c03693647bbbda43b1de1))
+* moving release creation to codeship ([2586ffb](https://github.com/gparasyris/versioning-demo/commit/2586ffbfa684e45777a6f7ec2a566864a9f31137))
+
+
+### Fixes
+
+* **3:** add conv com plugin ([c24ee57](https://github.com/gparasyris/versioning-demo/commit/c24ee57cd79e68e2c0fde61fcfad09b0895b3d6e))
+* **app:** add "@semantic-release/git" ([ee391f7](https://github.com/gparasyris/versioning-demo/commit/ee391f73007fcf8fe4ccd92eb2e70589375ecb80))
+* **app:** codeship 4 ([27fe8b3](https://github.com/gparasyris/versioning-demo/commit/27fe8b375ca1d442390af6fed383fb5ff430c408))
+* **app:** codeship v2 ([5da7739](https://github.com/gparasyris/versioning-demo/commit/5da7739049d91a7a702684b133a176de9516c8cc))
+* **app:** release update ([042c392](https://github.com/gparasyris/versioning-demo/commit/042c3928878279ef4bd35f0de2d16cf12e4dcfeb))
+* **app:** trying without lock ([1f34630](https://github.com/gparasyris/versioning-demo/commit/1f346308a074b1e9f908fedbe48cedf67365b679))
+* **portal:** codeship f1 ([96257e6](https://github.com/gparasyris/versioning-demo/commit/96257e6280e7af7723dcb0490cde765181234c0f))
+
 ### [2.0.1](https://github.com/gparasyris/versioning-demo/compare/v2.0.0...v2.0.1) (2021-10-06)
 
 

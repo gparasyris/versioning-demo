@@ -20,6 +20,7 @@ jobs:
             @semantic-release/changelog
             @semantic-release/git
             conventional-changelog-conventionalcommits
+            @semantic-release/condition-codeship
           branches: |
             ['master']
         env:

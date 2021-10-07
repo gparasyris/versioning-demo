@@ -1,3 +1,10 @@
+### [4.0.1](https://github.com/gparasyris/versioning-demo/compare/v4.0.0...v4.0.1) (2021-10-07)
+
+
+### Fixes
+
+* **app:** squash merge codeship ([#7](https://github.com/gparasyris/versioning-demo/issues/7)) ([4f5a58c](https://github.com/gparasyris/versioning-demo/commit/4f5a58ca14c2bb33a7a8ff1c082c02867132e064))
+
 ## [4.0.0](https://github.com/gparasyris/versioning-demo/compare/v3.0.0...v4.0.0) (2021-10-07)
 
 

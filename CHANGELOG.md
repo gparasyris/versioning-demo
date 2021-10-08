@@ -1,3 +1,13 @@
+### [4.0.2](https://github.com/gparasyris/versioning-demo/compare/v4.0.1...v4.0.2) (2021-10-08)
+
+
+### Fixes
+
+* **app:** squash 4 ([3453809](https://github.com/gparasyris/versioning-demo/commit/34538098870b3d34373ded036402e4af964c546f))
+* **app:** squash fix 1 ([8e8987a](https://github.com/gparasyris/versioning-demo/commit/8e8987ab56af5561e043504b3da1d04cbb264ccb))
+* **app:** squash fix 3 ([50a3456](https://github.com/gparasyris/versioning-demo/commit/50a34560a261c4009cd95da91a2acd122a38680f))
+* **services:** squash fix 2 ([08d991f](https://github.com/gparasyris/versioning-demo/commit/08d991f9f007aae502a9fe02f9c1005eb55cea74))
+
 ### [4.0.1](https://github.com/gparasyris/versioning-demo/compare/v4.0.0...v4.0.1) (2021-10-07)
 
 

@@ -1,6 +1,6 @@
 {
     "name": "versioning-demo",
-    "version": "4.0.1",
+    "version": "4.0.2",
     "scripts": {
         "semantic-release": "semantic-release"
     },

@@ -49,3 +49,9 @@
 
 4. new squash fix
 */
+
+/*
+
+Checking github toke on its own.
+
+*/

@@ -1,3 +1,11 @@
+### [5.2.1](https://github.com/gparasyris/versioning-demo/compare/v5.2.0...v5.2.1) (2021-11-25)
+
+
+### Bug Fixes
+
+* **services:** fixed subject initial state ([da86751](https://github.com/gparasyris/versioning-demo/commit/da8675137794cde98de62d3570c831d21dfc9ef3))
+* **services:** solved data issue in userservice ([0af11b6](https://github.com/gparasyris/versioning-demo/commit/0af11b6de90691b0866c8d1a987e625dd10177e1))
+
 ## [5.2.0](https://github.com/gparasyris/versioning-demo/compare/v5.1.0...v5.2.0) (2021-11-25)
 
 

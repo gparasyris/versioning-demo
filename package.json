@@ -4,10 +4,7 @@
     "scripts": {
         "semantic-release": "semantic-release"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/gparasyris/versioning-demo.git"
-    },
+    "private": true,
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.0",
         "@semantic-release/condition-codeship": "^1.1.0",

@@ -1,3 +1,10 @@
+## [5.3.0](https://github.com/gparasyris/versioning-demo/compare/v5.2.1...v5.3.0) (2021-11-25)
+
+
+### Features
+
+* **page:** home page now has category filtering ([50889dc](https://github.com/gparasyris/versioning-demo/commit/50889dcb8cfadc9c9356b1013e8b7e2304c090e7))
+
 ### [5.2.1](https://github.com/gparasyris/versioning-demo/compare/v5.2.0...v5.2.1) (2021-11-25)
 
 

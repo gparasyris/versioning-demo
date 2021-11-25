@@ -1,3 +1,10 @@
+## [5.2.0](https://github.com/gparasyris/versioning-demo/compare/v5.1.0...v5.2.0) (2021-11-25)
+
+
+### Updates
+
+* **other:** releaserc update ([ab98ced](https://github.com/gparasyris/versioning-demo/commit/ab98ceda9779474379efbc853db9c28b387e149a))
+
 ## [5.1.0](https://github.com/gparasyris/versioning-demo/compare/v5.0.1...v5.1.0) (2021-11-25)
 
 

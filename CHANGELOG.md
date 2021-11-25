@@ -1,3 +1,10 @@
+## [5.1.0](https://github.com/gparasyris/versioning-demo/compare/v5.0.1...v5.1.0) (2021-11-25)
+
+
+### New
+
+* **component:** third component added ([01377cd](https://github.com/gparasyris/versioning-demo/commit/01377cd030c9f1dd8c5d9e54a10620950cb04be4))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

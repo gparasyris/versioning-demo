@@ -1,5 +1,16 @@
 {
     "name": "versioning-demo",
-    "version": "4.0.3",
-    "private": true
+    "version": "5.0.0",
+    "scripts": {
+        "semantic-release": "semantic-release"
+    },
+    "private": true,
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.0",
+        "@semantic-release/condition-codeship": "^1.1.0",
+        "@semantic-release/git": "^10.0.0",
+        "@semantic-release/release-notes-generator": "^2.0.0",
+        "conventional-changelog-conventionalcommits": "^4.6.1",
+        "semantic-release": "^18.0.0"
+    }
 }

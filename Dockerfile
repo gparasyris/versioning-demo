@@ -9,6 +9,7 @@ RUN npm install && npm cache clean --force
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 # RUN cp config/environment.ts src/app/index.constant.ts
+
 RUN node_modules/.bin/ng build
 
 

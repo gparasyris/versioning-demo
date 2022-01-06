@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+pushd /usr/share/nginx/html
+$( echo "$ENV" | jq -r 'keys[] as $k | "export \($k)=\(.[$k])"' )
+
+for FILE in $(find . -name '*.js' -type f); do
+  for VAR in $(env); do
+    VAR_NAME=$(echo $VAR | awk 'BEGIN { FS="=" }; { print $1 }')
+    VAR_VALUE=$(echo $VAR | awk 'BEGIN { FS="=" }; { print $2 }')
+
+    sed -i "s|%${VAR_NAME}%|$VAR_VALUE|g" $FILE
+  done
+done
+
+sed -i -e s/\$PORT/$PORT/g /etc/nginx/conf.d/default.conf
+exec nginx -g "daemon off;"

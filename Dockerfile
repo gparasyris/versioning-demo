@@ -1,26 +1,22 @@
-FROM node:lts as build
+FROM node:14 as BUILD
 
-# RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-# RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-# RUN apt-get update && apt-get install -yq google-chrome-stable
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
 
-WORKDIR /app
+COPY package.json /usr/src/app
+RUN npm install && npm cache clean --force
 
-COPY package.json .
+COPY . /usr/src/app
+WORKDIR /usr/src/app
+RUN cp config/environment.ts src/app/index.constant.ts
+RUN node_modules/.bin/ng build
 
-RUN npm i && npm i -g @angular/cli
 
-COPY . .
+FROM nginx
+RUN apt-get update && apt-get install -y jq && rm -rf /var/lib/apt/lists/*
+COPY --from=BUILD /usr/src/app/dist/ /usr/share/nginx/html/
+COPY ./nginx-start /usr/local/bin
+COPY ./nginx-conf /etc/nginx/conf.d/default.conf
+ENV PORT=3003
 
-# RUN ng test --watch=false
-# RUN ng e2e --port 4202
-
-RUN ng build --output-path=dist
-
-FROM nginx:1.16.0-alpine
-
-COPY --from=build /app/dist /usr/share/nginx/html
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD nginx-start

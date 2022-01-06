@@ -1,0 +1,9 @@
+- type: serial
+  exclude: ^latest
+  steps:
+  - name: do_something_visible
+    service: app
+    command: echo 'Hello world'
+  - name: version_update
+    service: app
+    command: npm run semantic-release

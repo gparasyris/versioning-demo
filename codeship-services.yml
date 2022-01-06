@@ -1,0 +1,6 @@
+app:
+  build: .
+  cached: true
+  volumes:
+    - .:/usr/src/app
+    - /usr/src/app/node_modules

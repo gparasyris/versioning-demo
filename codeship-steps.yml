@@ -6,4 +6,4 @@
     command: echo 'Hello world'
   - name: version_update
     service: app
-    command: npm run semantic-release
+    command: /bin/sh -c "npm run semantic-release"

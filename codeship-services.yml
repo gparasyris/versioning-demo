@@ -8,5 +8,3 @@ semantic_release:
   build:
     image: semantic_release
     dockerfile: Dockerfile-semantic-release
-  encrypted_env_file:
-    - github.token.encrypted

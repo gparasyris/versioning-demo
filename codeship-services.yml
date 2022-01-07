@@ -4,7 +4,9 @@ app:
   volumes:
     - .:/usr/src/app
     - /usr/src/app/node_modules
-semantic_release:
+node-env:
   build:
-    image: semantic_release
-    dockerfile: Dockerfile-semantic-release
+    image: node-env
+    dockerfile: Dockerfile.node
+  encrypted_env_file:
+    - codeship-env.encrypted

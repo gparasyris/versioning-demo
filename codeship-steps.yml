@@ -4,6 +4,9 @@
   - name: do_something_visible
     service: app
     command: echo 'Hello world'
+  - name: lint
+    service: node-env
+    command: /bin/sh -c "npm run lint"
   - name: version_update
-    service: semantic_release
+    service: node-env
     command: /bin/sh -c "npm run semantic-release"

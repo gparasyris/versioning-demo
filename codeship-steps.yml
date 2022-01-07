@@ -1,0 +1,14 @@
+- type: serial
+  exclude: ^latest
+  steps:
+  - name: do_something_visible
+    service: app
+    command: echo 'Hello world'
+  - name: lint
+    tag: ^(master|production)
+    service: node-env
+    command: /bin/sh -c "npm run lint"
+  - name: version_update
+    tag: master
+    service: node-env
+    command: /bin/sh -c "npm run semantic-release"

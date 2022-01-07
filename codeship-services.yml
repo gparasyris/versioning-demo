@@ -1,0 +1,12 @@
+app:
+  build: .
+  cached: true
+  volumes:
+    - .:/usr/src/app
+    - /usr/src/app/node_modules
+node-env:
+  build:
+    image: node-env
+    dockerfile: Dockerfile.node
+  encrypted_env_file:
+    - codeship-env.encrypted

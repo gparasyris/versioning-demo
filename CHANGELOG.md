@@ -1,3 +1,5 @@
+## [6.1.0](https://github.com/gparasyris/versioning-demo/compare/v6.0.1...v6.1.0) (2022-01-07)
+
 ## [6.0.0](https://github.com/gparasyris/versioning-demo/compare/v5.3.0...v6.0.0) (2022-01-07)
 
 

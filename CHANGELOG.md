@@ -1,3 +1,10 @@
+## [6.0.0](https://github.com/gparasyris/versioning-demo/compare/v5.3.0...v6.0.0) (2022-01-07)
+
+
+### Breaking
+
+* codehsip steps added ([56eb878](https://github.com/gparasyris/versioning-demo/commit/56eb878e5da39cd4318948ff1562ecc259504ded))
+
 ## [5.3.0](https://github.com/gparasyris/versioning-demo/compare/v5.2.1...v5.3.0) (2021-11-25)
 
 

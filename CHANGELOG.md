@@ -1,6 +1,23 @@
 ## [6.0.0](https://github.com/gparasyris/versioning-demo/compare/v5.3.0...v6.0.0) (2022-01-07)
 
 
+### Bug Fixes
+
+* **refactor:** dummy fix ([5f9fce5](https://github.com/gparasyris/versioning-demo/commit/5f9fce57314f01de4b0ef9c3feb75b1e5980ef08))
+
+
+### Breaking
+
+* codehsip steps added ([56eb878](https://github.com/gparasyris/versioning-demo/commit/56eb878e5da39cd4318948ff1562ecc259504ded))
+
+
+### Chores
+
+* **release:** [skip ci] 6.0.0 ([ad5910e](https://github.com/gparasyris/versioning-demo/commit/ad5910e28c774ebc59c6175280a3e5670f21027d))
+
+## [6.0.0](https://github.com/gparasyris/versioning-demo/compare/v5.3.0...v6.0.0) (2022-01-07)
+
+
 ### Breaking
 
 * codehsip steps added ([56eb878](https://github.com/gparasyris/versioning-demo/commit/56eb878e5da39cd4318948ff1562ecc259504ded))

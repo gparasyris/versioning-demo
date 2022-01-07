@@ -1,3 +1,11 @@
+## [6.2.0](https://github.com/gparasyris/versioning-demo/compare/v6.1.0...v6.2.0) (2022-01-07)
+
+
+### Bug Fixes
+
+* **library:** remove codeship-related files ([c4d3d27](https://github.com/gparasyris/versioning-demo/commit/c4d3d27af025ebc5646b3efde86c0a2c13b8019b))
+* **library:** testing steps on master only ([229bb6e](https://github.com/gparasyris/versioning-demo/commit/229bb6eb1e149e7f5127635abeb7b6ed9fba40f4))
+
 ## [6.1.0](https://github.com/gparasyris/versioning-demo/compare/v6.0.1...v6.1.0) (2022-01-07)
 
 ## [6.0.0](https://github.com/gparasyris/versioning-demo/compare/v5.3.0...v6.0.0) (2022-01-07)

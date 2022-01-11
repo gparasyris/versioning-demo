@@ -1,3 +1,10 @@
+### [6.2.1](https://github.com/gparasyris/versioning-demo/compare/v6.2.0...v6.2.1) (2022-01-11)
+
+
+### Bug Fixes
+
+* **library:** using npx ([900fc63](https://github.com/gparasyris/versioning-demo/commit/900fc6331f160fca5faf8a0b2145ace82918b987))
+
 ## [6.2.0](https://github.com/gparasyris/versioning-demo/compare/v6.1.0...v6.2.0) (2022-01-07)
 
 

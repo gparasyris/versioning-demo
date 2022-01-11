@@ -11,4 +11,4 @@
   - name: version_update
     tag: master
     service: node-env
-    command: /bin/sh -c "npm run semantic-release"
+    command: npx semantic-release
